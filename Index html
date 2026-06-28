@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Green Farm</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+header{
+    background:#2e8b57;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#1f5f3a;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:#90ee90;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.services{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#f4f4f4;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#2e8b57;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Green Farm</h1>
+    <p>Fresh Produce Straight From Our Farm</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Products</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to Green Farm</h1>
+    <p>We grow healthy vegetables, fruits, and raise livestock.</p>
+</section>
+
+<section class="services">
+
+<div class="card">
+    <h3>Vegetables</h3>
+    <p>Fresh organic vegetables harvested daily.</p>
+</div>
+
+<div class="card">
+    <h3>Fruits</h3>
+    <p>Sweet and nutritious fruits from our orchards.</p>
+</div>
+
+<div class="card">
+    <h3>Livestock</h3>
+    <p>Quality poultry and farm animals.</p>
+</div>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 Green Farm. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
